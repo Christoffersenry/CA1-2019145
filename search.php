@@ -25,7 +25,7 @@
             echo "Textfield can not be left blank. Return to search and enter in the name of the country you would like to find it's capital.";
       }
       else{
-         echo "This doesn't match any of the countries in our database. Check your spelling and try again or refer to the 'Countries & Capitals' section for a full list of countries and their cooresponding Capitals. Entry is case sensitive.";   
+         echo "This doesn't match any of the countries in our database. Check your spelling and try again or refer to the 'Countries & Capitals' section for a full list of countries and their corresponding Capitals. Entry is case sensitive.";   
       }
 ?> 
 </p>
