@@ -2,17 +2,18 @@
 
 <div class="content-container">
 <div class="row">
+<!-- Aesthetic column left -->
 <div class="column-side">
 </div>
-
+<!-- Duplicated array into this page to use variables -->
 <section class="main">
 <?php
       $geo_loc = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg", "Belgium"=> "Brussels", "Denmark"=>"Copenhagen", "Finland"=>"Helsinki", "France" => "Paris", "Slovakia"=>"Bratislava", "Slovenia"=>"Ljubljana", "Germany" => "Berlin", "Greece" => "Athens", "Ireland"=>"Dublin", "Netherlands"=>"Amsterdam", "Portugal"=>"Lisbon", "Spain"=>"Madrid", "Sweden"=>"Stockholm", "United Kingdom"=>"London", "Cyprus"=>"Nicosia", "Lithuania"=>"Vilnius", "Czech Republic"=>"Prague", "Estonia"=>"Tallin", "Hungary"=>"Budapest", "Latvia"=>"Riga","Malta"=>"Valetta", "Austria" => "Vienna", "Poland"=>"Warsaw") ;
       ?>
 
-<!-- Post method for form submission -->
 <p class="search-text-space">You wanted to search for the capital of : <?php echo $_POST["country"]; ?></p>
 
+<!-- PHP IF/ELSE Statement to display capital or error -->
 <p>
 <?php
       $user_input = $_POST["country"];
@@ -30,12 +31,12 @@
 ?> 
 </p>
 <br>
-
+<!-- Button to return user back to capital search page -->
 <button class="search-return-btn">
       <a href="page3.php">Return to search</a>
 </button>
 </section>
-
+<!-- Aesthic column right -->
 <div class="column-side">
 </div>
 </div>
